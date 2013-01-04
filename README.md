@@ -16,3 +16,7 @@ Author URI: http://ctlt.ubc.ca/
 HOW TO USE:
 
 1. 
+2.
+3.
+4.
+5.
