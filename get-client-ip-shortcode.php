@@ -32,7 +32,7 @@ class IP_Shortcode {
      * The .ip-shortcode element will later be replaced via javascript.
      */
     static function get_address() {
-        if (is_plugin_active('wp-super-cache')) {
+        if (is_plugin_active('wp-super-cache/wp-cache.php')) {
             // Confirms that the shortcode is being used, and thus the javascript file needs to be added.
             self::$add_script = true;
             
