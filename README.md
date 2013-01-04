@@ -5,7 +5,7 @@ This plugin is designed to bypass the Wordpress Super Cache plugin (http://wordp
 It uses javascript to replace the shortcode, ensuring that the IP is refreshed regardless of whether the page is cached or not.
 
 
-Plugin Name: Get Client IP Shortcode
+Plugin Name: Get Client IP Shortcode\n
 Plugin URI: https://github.com/psmagicman/ctlt_wp_get_client_ip/
 Description: Get Client's IP - simple as that.
 Version: 1.0
