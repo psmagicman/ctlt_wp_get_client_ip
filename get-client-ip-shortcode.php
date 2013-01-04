@@ -10,6 +10,8 @@
  * Author URI: http://ctlt.ubc.ca/
  */
 /* 
+ * Copyright 2013 Michael Ha, Devindra Payment, Julien Law (email : michael.ha@ubc.ca)
+ * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as 
  * published by the Free Software Foundation.
