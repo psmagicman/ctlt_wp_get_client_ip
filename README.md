@@ -6,15 +6,10 @@ It uses javascript to replace the shortcode, ensuring that the IP is refreshed r
 
 
 Plugin Name: Get Client IP Shortcode
-
 Plugin URI: https://github.com/psmagicman/ctlt_wp_get_client_ip/
-
 Description: Get Client's IP - simple as that.
-
 Version: 1.0
-
 Author: Michael Ha, Devindra Payment, Julien Law
-
 Author URI: http://ctlt.ubc.ca/
 
 
