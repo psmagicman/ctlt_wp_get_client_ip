@@ -1,8 +1,7 @@
 jQuery(document).ready(function() {
-  console.log('Document Ready');
-	jQuery('.ip-class').each(function() {
-		console.log('Editing Quote: ' + jQuery(this));
-		
-		jQuery(this).replaceWith(ipaddr);
-	});
+    // Get each instance of the shortcode, and replace it with the user's ip address.
+    jQuery('.ip-shortcode').each(function() {
+        jQuery(this).replaceWith(ipaddr);
+        //ipaddr is defined in the get-client-ip-shortcode.php, using the wp_localize_script() function.
+    });
 });
