@@ -9,6 +9,8 @@
  * Author: Michael Ha, Devindra Payment, Julien Law, CTLT
  * Author URI: http://ctlt.ubc.ca/
  */
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+
 class IP_Shortcode {
     static $add_script;
     
@@ -37,6 +39,7 @@ class IP_Shortcode {
             // Javascript will replace the span tags with the client ip address.
             return '<span class="ip-shortcode"></span>';
         } else {
+            // Return the client's IP address.
             return $_SERVER['REMOTE_ADDR'];
         }
     }
