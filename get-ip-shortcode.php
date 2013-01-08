@@ -82,7 +82,7 @@ class IP_Shortcode {
         
         // Adds this javascript file to the page.
         wp_enqueue_script( 'get-ip-javascript' );
-        wp_localize_script( 'get-ip-javascript', 'ajaxurl', admin_url('admin-ajax.php') );
+        wp_localize_script( 'get-ip-javascript', 'get_ip_ajaxurl', admin_url('admin-ajax.php') );
     }
 
     static function get_ip_ajax() {

@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
             action: 'get_ip',
         };
         
-        jQuery.post(ajaxurl, data, function(response) {
+        jQuery.post(get_ip_ajaxurl, data, function(response) {
             shortcode.replaceWith(response);
         });
     });
