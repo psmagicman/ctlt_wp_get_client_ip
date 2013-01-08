@@ -1,5 +1,5 @@
 === Get Client IP Shortcode ===
-Contributors: Devindra, psmagicman
+Contributors: Devindra, psmagicman, ctlt-dev, ubcdev
 Donate link: 
 Tags: plugin, shortcode, ip
 Requires at least: 3.5
