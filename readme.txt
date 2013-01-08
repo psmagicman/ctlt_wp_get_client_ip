@@ -1,42 +1,28 @@
-ctlt_wp_get_client_ip
-=====================
+=== Get Client IP Shortcode ===
+Contributors: Devindra, psmagicman
+Donate link: 
+Tags: plugin, shortcode, ip
+Requires at least: 3.5
+Tested up to: 3.5
+Stable tag: 
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Copyright 2013  Michael Ha, Devindra Payment, Julien Law  (email : michael.ha@ubc.ca)
+Adds a simple shortcode that can be used to display a vistor's IP back to them.
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as 
-    published by the Free Software Foundation.
+== Description ==
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+Adds the [get_ip] shortcode to Wordpress. When this shortcode is used, anyone who visits the page will see their own IP address in place of the shortcode.
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+This plugin is designed to work with and bypass WP Super Cache. Normally the IP address would be cached and thus users would see the first IP address that was cached, instead of their own.
 
-A simple wordpress plugin that adds a shortcode with the id [get_ip]. The shortcode will be replaced with the user's ID.
-This plugin is designed to bypass the Wordpress Super Cache plugin (http://wordpress.org/extend/plugins/wp-super-cache/).
-It uses javascript to replace the shortcode, ensuring that the IP is refreshed regardless of whether the page is cached or not.
+== Installation ==
 
-Plugin Name: Get Client IP Shortcode
+1. Upload `ctlt_wp_get_client_ip` folder to the `/wp-content/plugins/` directory.
+1. Activate the plugin through the 'Plugins' menu in WordPress.
+1. Use the `[get_ip]` shortcode in your blog posts.
 
-Plugin URI: https://github.com/psmagicman/ctlt_wp_get_client_ip/
+== Changelog ==
 
-Description: Get Client's IP - simple as that.
-
-Version: 1.0
-
-Author: Michael Ha, Devindra Payment, Julien Law
-
-Author URI: http://ctlt.ubc.ca/
-
-
-HOW TO USE:
-
-1. Install and Activate the plugin in Wordpress' administrative dashboard. (http://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
-
-2. Use the [get_ip] shortcode in any of your pages or blog posts.
-
-3. This will display any visitor's IP to them.
+= 1.0 =
+* Initial Release
